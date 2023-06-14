@@ -42,7 +42,7 @@
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <name>maven-build</name>
-            <url>http://4.194.220.224/:8081/repository/maven-snapshots/</url>
+            <url>http://4.194.220.224:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
