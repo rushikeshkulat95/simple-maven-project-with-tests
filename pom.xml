@@ -35,6 +35,9 @@
               </configuration>
               <executions>
                   <execution>
+                      <configuration>
+                          <skip>$(cve.check.skip)</skip>
+                      </configuration>    
                       <goals>
                           <goal>check</goal>
                       </goals>
